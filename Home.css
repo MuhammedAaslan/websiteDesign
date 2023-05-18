@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    border-bottom: 0.2rem solid rgb(196, 52, 160);
+}
+
+.header {
+    background-color: #4b4a4a;
+    display: flex;
+    padding: 1.2rem;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    font-size: 0.8rem;
+}
+
+.header h2 {
+    color: whitesmoke;
+}
+
+h2 .clarus {
+    color: rgb(196, 52, 160);
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header ul li:hover {
+
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.header ul li {
+    margin-left: 1.2rem;
+    font-size: 0.7rem;
+}
+
+.header ul {
+    color: rgb(196, 52, 160);
+
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.background {
+    background-image: url(./005-Website-Page-Design-2/img/showcase.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.h1andp {
+    color: whitesmoke;
+
+}
+
+.subscribe {
+    display: flex;
+    padding: 1.5rem;
+    color: rgba(255, 255, 255, 0.938);
+    background-color: #4b4a4a;
+    justify-content: space-between;
+}
+
+.button input,
+button {
+    padding: 0.2rem;
+}
+
+.button button {
+    background-color: rgba(255, 68, 0, 0.808);
+    color: wheat;
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.Graph {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 1rem;
+
+}
+
+.graph img {
+    height: 4rem;
+
+}
+
+.graph img:hover {
+    transform: scale(1.2);
+}
+
+.graph h5,
+p {
+    margin-top: 1rem;
+}
+
+.graph p {
+    font-size: small;
+}
+
+footer {
+    background-color: #4b4a4a;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+
+}
+
+footer>p {
+    font-size: 0.6rem;
+    color: white;
+}
+
+footer>img {
+    height: 2rem;
+    margin-bottom: 1rem;
+
+}

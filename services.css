@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    border-bottom: 0.2rem solid rgb(196, 52, 160);
+}
+
+.header {
+    background-color: #4b4a4a;
+    display: flex;
+    padding: 1.2rem;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    font-size: 0.8rem;
+}
+
+.header h2 {
+    color: whitesmoke;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.header ul li:hover {
+
+    transform: scale(1.2);
+}
+
+.header ul li {
+    margin-left: 1.2rem;
+    font-size: 0.7rem;
+}
+
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+ul a:nth-child(3) {
+    color: rgb(196, 52, 160);
+}
+
+.subscribe {
+    display: flex;
+    padding: 1.5rem;
+    color: rgba(255, 255, 255, 0.938);
+    background-color: #4b4a4a;
+    justify-content: space-between;
+}
+
+.button input,
+button {
+    padding: 0.2rem;
+}
+
+.button button {
+    background-color: rgba(255, 68, 0, 0.808);
+    color: wheat;
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.main_services {
+    display: flex;
+    padding: 1rem;
+
+}
+
+.Website {
+    margin-top: 0.4rem;
+    background-color: #4b4a4a49;
+    padding: 1rem;
+
+}
+
+.Website h5,
+p {
+    padding: 0.5rem;
+    font-size: small;
+}
+
+.services__first {
+    flex-grow: 2;
+
+}
+
+.getQuote {
+    flex-grow: 1;
+    margin-left: 2rem;
+    background-color: #4b4a4a;
+    color: white;
+    margin-bottom: 10rem;
+    padding: 1rem;
+}
+
+.getQuote h5 {
+    padding: 20px 0px;
+}
+
+.getQuote label {
+    font-size: small;
+}
+
+.getQuote input,
+textarea {
+    width: 90%;
+    padding: 0.2rem;
+}
+
+.getQuote button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #4b4a4a;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+
+}
+
+footer>p {
+    font-size: 0.6rem;
+    color: white;
+    margin-top: 0.1rem;
+}
+
+footer>img {
+    height: 2rem;
+    margin-top: 0.1rem;
+
+}
